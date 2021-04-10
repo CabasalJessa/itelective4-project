@@ -1,25 +1,44 @@
-.title {
-    margin-bottom: 30px;
-}
-
 .title h4 {
     color: var(--ion-color-primary);
+    margin-top: 0px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 18px;
 }
 
 .title p {
     margin-top: 0 !important;
     color: #999999;
     font-size: small;
+    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+ion-input{
+    height: 32px;
+    font-size: small;
+    margin-bottom: 3pxpx;
 }
 
 p {
-    font-size: small;
+    font-size: 11px;
     color: #999999;
+}
+
+a{
+    font-size: small;
+}
+
+ion-button{
+    height: 35px;
+    font-size: small;
+    margin-top: -6px;
 }
 
 ion-content {
     --offset-bottom: auto!important;
     --overflow: hidden;
+    background-color: #fff;
     overflow: auto;
     &::-webkit-scrollbar {
       display: none;

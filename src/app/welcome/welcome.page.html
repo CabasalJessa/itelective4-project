@@ -3,15 +3,15 @@
 </ion-header>
 
 <ion-content class="ion-padding ion-text-center" color="primary">
-  <img src="../../assets/LOGO.jpg" class="logo" />
+  <img src="../../assets/logo.png" class="logo" />
 
     <div class="title">
-        <h2>Tic-Tac-Do</h2>
+        <h2>TIC-TAC-DO</h2>
         <p>Build your Tasks with Us!</p>
     </div>
 
-    <div class="ion-margin-top">
-        <ion-button expand="block" class="ion-margin-top" (click)="register()"  color="white">SIGN UP</ion-button>
-        <ion-button expand="block" class="ion-margin-top" (click)="login()" color="white">LOGIN</ion-button>
+    <div class="buttons">
+        <ion-button expand="block" class="signup" (click)="register()" fill="outline" color="dark">SIGN UP</ion-button>
+        <ion-button expand="block" class="login" (click)="login()" color="dark"><ion-text color="primary">LOGIN</ion-text></ion-button>
     </div>
 </ion-content>
